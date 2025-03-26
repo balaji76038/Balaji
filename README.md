@@ -2,155 +2,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Balaji S - Portfolio</title>
+    <title>Balaji S - Resume</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
         body {
-            background-color: #e63946;
-            color: black;
-        }
-        .header {
-            background-color: #a8eb12;
-            text-align: center;
-            padding: 30px;
-            font-size: 28px;
-            font-weight: bold;
-        }
-        .sub-header {
-            text-align: center;
-            font-size: 18px;
-            font-style: italic;
-            margin-bottom: 10px;
-        }
-        .profile-img {
-            display: block;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin: 10px auto;
-            border: 3px solid #000;
-        }
-        .nav {
-            text-align: center;
-            padding: 15px;
-            background-color: #d90429;
-        }
-        .nav a {
-            color: white;
-            margin: 0 20px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 18px;
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
         }
         .container {
-            width: 80%;
-            margin: auto;
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            margin-top: 20px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h2 {
-            color: #e63946;
+        h1, h2 {
+            color: #333;
+        }
+        hr {
+            border: 1px solid #ddd;
         }
         ul {
-            padding-left: 20px;
-        }
-        .resume-btn {
-            display: block;
-            text-align: center;
-            margin-top: 20px;
-            padding: 12px;
-            background-color: black;
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            width: 180px;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-        .footer {
-            text-align: center;
-            padding: 15px;
-            background-color: black;
-            color: white;
-            margin-top: 30px;
-        }
-        .contact {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .contact a {
-            color: #e63946;
-            text-decoration: none;
-            font-weight: bold;
+            list-style-type: square;
         }
     </style>
 </head>
 <body>
-
-    <div class="header">Balaji S</div>
-    <div class="sub-header">Student | Programme Developer</div>
-    
-    <img src="profile.jpg" alt="Profile Picture" class="profile-img">
-
-    <div class="nav">
-        <a href="#">About</a>
-        <a href="#">Education</a>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
-        <a href="#">Resume</a>
-        <a href="#">Contact</a>
-    </div>
-
     <div class="container">
+        <h1>Balaji S</h1>
+        <h3>Aspiring Software Developer | Web Developer | Tech Enthusiast</h3>
+        <hr>
+
         <h2>About Me</h2>
-        <p>Pursuing II YEAR OF BCA. MUSIC LOVER. PROGRAMME DEVELOPER.</p>
-    </div>
+        <p>I am currently pursuing my second year of a <strong>Bachelor of Computer Applications (BCA)</strong> degree. Passionate about technology, I specialize in <strong>web development, administration, and teaching</strong>. As a dedicated learner, I enjoy working on complex tasks and developing efficient solutions. Additionally, I am a music enthusiast with a creative mindset.</p>
 
-    <div class="container">
         <h2>Education</h2>
-        <p>II BCA</p>
-    </div>
+        <p><strong>Bachelor of Computer Applications (BCA)</strong> – II Year</p>
 
-    <div class="container">
         <h2>Skills</h2>
         <ul>
-            <li>Web Developing</li>
+            <li>Web Development</li>
             <li>Administration</li>
             <li>Teaching</li>
             <li>Handling Heavy Tasks</li>
         </ul>
-    </div>
 
-    <div class="container">
         <h2>Projects</h2>
         <ul>
-            <li>Data Handler</li>
+            <li><strong>Data Handler</strong></li>
         </ul>
-    </div>
 
-    <div class="container">
         <h2>Resume</h2>
-        <a href="resume.pdf" class="resume-btn" download>Download CV</a>
+        <p>Available in <strong>HTML format</strong></p>
     </div>
-
-    <div class="container contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:balaji@example.com">balaji@example.com</a></p>
-        <p>LinkedIn: <a href="#">linkedin.com/in/balaji</a></p>
-        <p>GitHub: <a href="#">github.com/balaji</a></p>
-    </div>
-
-    <div class="footer">© 2025 Balaji S</div>
-
 </body>
 </html>
