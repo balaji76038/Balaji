@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -151,7 +150,7 @@
         <p>GitHub: <a href="#">github.com/balaji</a></p>
     </div>
 
-    <div class="footer">© 2024 Balaji S</div>
+    <div class="footer">© 2025 Balaji S</div>
 
 </body>
 </html>
